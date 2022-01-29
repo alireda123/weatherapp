@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+
+.App{
+  min-height: 200px;
+  text-align: center;
+}
+
+
+Body{
+  @apply text-white bg-gradient-to-r from-purple-500 to-pink-500  focus:ring-4 focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2;
+  font-family: "Dongle", "Helvetica Neue";
+  font-size: 2em;
+}
+
+input{
+  color: black;
+}
+
+.weatherforecast > * {
+  padding: 5px;
+}
+
+.weatherdisplay > * {
+  padding: 5px;
+  max-width: 400px;
+}
+
